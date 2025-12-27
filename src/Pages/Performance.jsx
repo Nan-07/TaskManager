@@ -1,6 +1,6 @@
 // Pages/Performance.jsx
 import { useState } from 'react';
-import { useTasks } from '../Context/TaskContext';
+import { useTasks } from '../Context/TaskContext.jsx';
 import { motion } from 'framer-motion';
 import { FaClock, FaCheckCircle, FaTimesCircle, FaChartBar, FaCalendar, FaStar } from 'react-icons/fa';
 

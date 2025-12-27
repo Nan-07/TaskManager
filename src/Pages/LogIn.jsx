@@ -1,7 +1,7 @@
 // Pages/Login.jsx
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { useAuth } from '../Context/AuthContext';
+import { useAuth } from '../Context/AuthContext.jsx';
 import { motion } from 'framer-motion';
 import { FaTasks, FaUser, FaLock } from 'react-icons/fa';
 

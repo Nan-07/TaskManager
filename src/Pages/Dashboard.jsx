@@ -1,7 +1,7 @@
 // Pages/Dashboard.jsx
 import { useState } from 'react';
-import { useAuth } from '../Context/AuthContext';
-import { useTasks } from '../Context/TaskContext';
+import { useAuth } from '../Context/AuthContext.jsx';
+import { useTasks } from '../Context/TaskContext.jsx';
 import { motion } from 'framer-motion';
 import { FaPlus, FaCheckCircle, FaClock, FaCalendarAlt, FaChartBar, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';

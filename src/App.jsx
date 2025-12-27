@@ -1,14 +1,14 @@
 // App.jsx
 import { Routes, Route, Navigate } from 'react-router-dom';
-import Layout from './Layout/Layout';
-import Dashboard from './Pages/Dashboard';
-import Task from './Pages/Task';
-import TaskDetails from './Pages/TaskDetials';
-import Login from './Pages/Login';
-import Signup from './Pages/Signup';
-import Profile from './Pages/Profile';
-import Performance from './Pages/Performance';
-import { TaskProvider, useTasks } from './Context/TaskContext';
+import Layout from './Layout/Layout.jsx';
+import Dashboard from './Pages/Dashboard.jsx';
+import Task from './Pages/Task.jsx';
+import TaskDetails from './Pages/TaskDetails.jsx';
+import Login from './Pages/LogIn.jsx';
+import Signup from './Pages/Signup.jsx';
+import Profile from './Pages/Profile.jsx';
+import Performance from './Pages/Performance.jsx';
+import { TaskProvider, useTasks } from './Context/TaskContext.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 

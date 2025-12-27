@@ -1,7 +1,7 @@
 // Pages/Task.jsx
 import { useState } from 'react';
-import TaskCard from '../Components/TaskCard';
-import TaskModal from '../Components/TaskModal';
+import TaskCard from '../Components/TaskCard.jsx';
+import TaskModal from '../Components/TaskModal.jsx';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaPlus } from 'react-icons/fa';
 

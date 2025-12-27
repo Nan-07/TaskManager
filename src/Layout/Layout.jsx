@@ -1,5 +1,5 @@
 // Layout/Layout.jsx
-import Sidebar from '../Components/Sidebar';
+import Sidebar from '../Components/Sidebar.jsx';
 import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
